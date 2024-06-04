@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to left, skyblue, pink);
+    display: flex;
+    flex-direction: row;
+}
+
+div.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    padding: 0px;
+    margin: 10px auto;
+}
+table {
+    width: 100%;
+     border-collapse: collapse;
+}
+#gender {
+    width: 100%;
+    padding-left: 5px;
+}
+#addressbox input[type="text"]{
+    width: 97%;
+}
+div.form input[type="text"]{
+    padding: 5px;
+}
+div.form input[type="date"]{
+    padding: 5px;
+    width: 46%;
+}
+
+div.inside input[type="button"]{
+    width: 97%;
+    padding: 8px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px black;
+ }
+
+ div.inside input[type="button"]:active{
+    background-color: lightblue;
+    box-shadow: none;
+
+}
+
+
+
+div.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#table th{
+    border: 1px solid black;
+    text-wrap: wrap;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+}
+#table > tr > td{
+    border: 1px solid black;
+    text-wrap: wrap;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+
+
+

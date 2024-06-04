@@ -1,0 +1,83 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        .resume {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .left {
+            width: 30%;
+            background-color: lightblue;
+            display: flex;
+            height: 100vw;
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+        }
+
+        .right {
+            width: 70%;
+            background-color: lightcyan;
+            justify-content: right;
+        }
+
+        img#profile_pic {
+            width: 250px;
+            margin: 0px auto;
+            margin-top: 20px;
+            display: block;
+        }
+
+        .padding_left {
+            padding-left: 70px;
+        }
+
+        .margin_left {
+            margin-left: 70px;
+        }
+
+        .under_line {
+            text-decoration: underline;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .gray {
+            background-color: lightgray;
+        }
+
+        .title {
+            font-size: 50px;
+            margin: 0px;
+            width: max-content;
+        }
+
+        .occupation {
+            margin: 0px;
+        }
+
+        .objectives {
+            margin: 70px 70px 20px 70px;
+            font-size: 25px;
+        }
+
+        .objectives p {
+            text-align: justify;
+        }
+
+        .hleft {
+            display: inline;
+            text-align: left;
+        }
+
+        .hright {
+            display: inline;
+            text-align: right;
+            right: 0px;
+        }

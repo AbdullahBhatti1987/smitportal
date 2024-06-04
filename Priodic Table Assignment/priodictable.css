@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+}
+div.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 90%;
+
+}
+h1 {
+    text-align: center;
+}
+table tr td{
+    width: 80px!important;
+    height: 80px!important;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+table tr td sup {
+    font-size: 10px;
+}
+table tr td p {
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 35px;
+    font-weight: 500;
+}
+table tr td sub {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.seagreenbg {
+    background-color: #D8F8FF;
+    color: #00758C;
+}
+.redbg {
+    background-color: #FFE7E7;
+    color: #D60024;
+}
+.purplebg {
+    background-color: #F3E8FD;
+    color: #6232EC;
+}
+.greenbg {
+    background-color: #D6F9E8;
+    color: #002C00;
+}
+.pinkbg {
+    background-color: #FFE7EB;
+    color: #CD1D5E;
+}
+.yellowbg {
+    background-color: #FEF7E0;
+    color: #945700;
+}
+.lbluebg {
+    background-color: #E2EEFF;
+    color: #0076F4;
+}
+.graybg {
+    background-color: #E7E7EA;
+    color: #3F374F;
+}
+.brownbg {
+    background-color: #FFE6D4;
+    color: #C73200;
+}
+.skybluebg {
+    background-color: #DFF3FF;
+    color: #003355;
+}
+.blanktd {
+    width: 50px!important;
+}
+td:hover {
+    background-color: whitesmoke;
+    opacity: 0.8;
+}

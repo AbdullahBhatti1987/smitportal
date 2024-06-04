@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="../abc.css">
+    <style>
+        div.options {
+            margin-top: 100px;
+        }
+
+        div.option p,
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        div.regheading {
+            width: 100%;
+            height: 100px;
+            margin-top: 100px;
+        }
+        div.regheading h1{
+            text-align: center;
+        }
+        div.regfm {
+            width: 70%!important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+        div.regfm label{
+            padding-left: 5px;
+            color: #0873B9;
+            margin-top: 15px;
+        }        
+        div.regfm select{
+            width: 94%!important;
+        }
+
+        div.regfm input, select{
+            width: 92%;
+            padding: 15px 5px!important;
+            margin-bottom: 15px;
+            margin: 0px 5px;
+            border: 1px solid #8AC642;
+            border-radius: 5px;
+        }
+        div.downform input{
+            width: 95%;
+            padding: 15px 10px!important;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #8AC642;
+
+        }
+        div.downform label{
+            width: 100%;
+            padding-left: 15px;
+            color: #0873B9;
+
+        }
+        div.leftform {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+        }
+        div.rightform {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+        }
+        div.downform {
+            width: 70%;
+            margin: 10px auto;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+        }
+        div.downform button{
+            background-color: #0873B9;
+            color: white;
+            padding: 10px 0px;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 97%;
+            box-shadow: 2px 2px 5px black;
+            text-shadow: 2px 2px 5px black;
+        }
+        div.downform button:active{
+            box-shadow: none;
+            text-shadow: none;
+            font-size: 15.8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../logo/smit logo.png" alt=""></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../project/projects.html">Projects</a></li>
+                <li><a href="#">Registration</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="regheading">
+        <h1>Registration Form</h1>
+    </div>
+    <div class="regfm">
+        <!-- <form action="submit"> -->
+            <div class="leftform">
+                <label for="city">Select City</label>
+                <select name="city" id="city">
+                    <option value="" disabled>Select City</option>
+                    <option value="karachi">Karachi</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="islamabad">Islamabad</option>
+                    <option value="peshawar">Peshawar</option>
+                    <option value="quetta">Quetta</option>
+                    <option value="hyderabad">Hyderabad</option>
+                </select>
+                <label for="name">Full name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="cnic">CNIC</label>
+                <input type="text" id="cnic">
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+
+            <div class="rightform">
+                <label for="course">Select Course or Event</label>
+                <select name="course" id="course">
+                    <option value="karachi">Web & App Developer</option>
+                    <option value="lahore">Block Chain</option>
+                    <option value="islamabad">Front End Developer</option>
+                    <option value="peshawar">Microsoft Office</option>
+                    <option value="quetta">Graphic Designer</option>
+                    <option value="hyderabad">Solar System Technician</option>
+                </select>
+                <label for="fname">Father name</label>
+                <input type="text" id="fname">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone">
+                <label for="fcnic">Father's CNIC (optional)</label>
+                <input type="text" id="fcnic">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        <!-- </form> -->
+
+    </div>
+    <div class="downform">
+        <label for="address">Address</label>
+        <input type="text" id="address">
+        <label for="qualification">Last Qualification</label>
+        <input type="text" id="qualification">
+        <label for="laptop">Do you have a Laptop?</label>
+        <input type="text" id="laptop">
+        <button>Submit</button>
+    </div>
+
+
+    
+    <footer>
+        <p>Copyright C 2023 by SMIT</p>
+    </footer>
+</body>
+</html>

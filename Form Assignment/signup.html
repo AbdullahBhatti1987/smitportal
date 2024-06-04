@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="../abc.css">
+    <link rel="stylesheet" href="./form.css">
+
+</head>
+
+<body>
+        <header>
+            <div class="logo">
+                <a href="../index.html"><img src="../logo/smit logo.png" alt=""></a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../project/projects.html">Projects</a></li>
+                    <li><a href="../smit/smit registration.html">Registration</a></li>
+                    </ul>
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+    <div class="form">
+        <fieldset>
+            <h1>Signup Form</h1>
+
+            <fieldset id="main">
+                <legend>Personal Details</legend>
+                <table>
+                    <tr>
+                        <td colspan="2"><label for="fname">First Name</label></td>
+                        <td colspan="2"><label for="lname">Last Name</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" name="fname" id="fname" maxlength="15"
+                                placeholder="First Name"></td>
+                        <td colspan="2"><input type="text" name="lname" id="lname" maxlength="15"
+                                placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="ftname">Father's Name</label></td>
+                        <!-- <td colspan="2"><label for="ftname">Mother's Name</label></td> -->
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" name="ftname" id="ftname" maxlength="15"
+                                placeholder="Father's Name"></td>
+                        <!-- <td colspan="2"><input type="text" name="mname" id="mname" maxlength="15"
+                                placeholder="Mother's Name"></td> -->
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="dob">Date of Birth</label></td>
+                        <td colspan="2"><label for="gender">Gender</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="date" name="dob" id="dob"></td>
+                        <td><input type="radio" name="gender" id="male"><label for="male">Male</label></td>
+                        <td><input type="radio" name="gender" id="male"><label for="female">Female</label></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+
+            <fieldset id="first">
+                <legend>Address Details</legend>
+                <table>
+                    <tr>
+                        <td colspan="4"><label for="caddress">Current Address</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><input type="text" name="caddress" id="caddress" placeholder="Current Address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><label for="paddress">Permnent Address</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><input type="text" name="paddress" id="paddress" placeholder="Permnent Address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><label for="maddress">Select Mailing Address</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="mcaddress"><label for="mcaddress">Current
+                                Address</label>
+                        </td>
+                        <td colspan="2"><input type="checkbox" id="mpaddress"><label for="pmaddress">Permnent
+                                Address</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="memail"><label for="memail">Email ID</td>
+                        <td colspan="2"><input type="checkbox" id="byself"><label for="byself">Collect Byself</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="second">
+                <legend>Contact Details</legend>
+                <table>
+                    <tr>
+                        <td colspan="2"><label for="hnumber">Home Number</label></td>
+                        <td colspan="2"><label for="mnumber">Mobile Number</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" name="hnumber" id="caddress" placeholder="Home Number"></td>
+                        <td colspan="2"><input type="text" name="mnumber" id="caddress" placeholder="Mobile Number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="hnumber">Office Number: 1 </label></td>
+                        <td colspan="2"><label for="mnumber">Office Number: 2</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" name="hnumber" id="caddress" placeholder="Office Number 1">
+                        </td>
+                        <td colspan="2"><input type="text" name="mnumber" id="caddress" placeholder="Office Number 2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">SMS Service Alert</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="shnumber"><label for="shnumber">Home Number</label>
+                        </td>
+                        <td colspan="2"><input type="checkbox" id="smnumber"><label for="smnumber">Mobile Number</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="checkbox" id="snrequired"><label for="snrequired">Not Required</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Term and Condition</legend>
+                <table>
+                    <tr>
+                        <td colspan="4"><input type="checkbox" name="agree" id="agree">
+                            <span>I agree to the term and conditions of this event.</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><input type="button" value="Signup"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </fieldset>
+    </div>
+</body>
+</html>
